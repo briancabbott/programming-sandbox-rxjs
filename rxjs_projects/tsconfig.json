@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/js/",
+      "target": "es6",
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "./**/*",
+      "./node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
